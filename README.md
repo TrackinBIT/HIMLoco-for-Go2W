@@ -34,4 +34,4 @@ For more accurate Sim-to-Sim validation and real-world deployment, refer to [rl_
 
 - [legged_gym](https://github.com/leggedrobotics/legged_gym)
 
-- [rl_sar](https://github.com/fan-ziqi/rl_sar)# HIMLoco-for-Go2W
+- [rl_sar](https://github.com/fan-ziqi/rl_sar)
