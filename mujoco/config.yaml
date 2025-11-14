@@ -1,0 +1,43 @@
+paths:
+  scene_xml: "/home/track/桌面/HIMLoco_Go2W/resources/robots/go2w/mjcf/scene.xml"
+  policy_path: "/home/track/桌面/HIMLoco_Go2W/logs/GO2W/exported/policies/policy_best.pt"
+
+joint_names:
+  - FL_hip_joint
+  - FL_thigh_joint
+  - FL_calf_joint
+  - FL_wheel_joint
+  - FR_hip_joint
+  - FR_thigh_joint
+  - FR_calf_joint
+  - FR_wheel_joint
+  - RL_hip_joint
+  - RL_thigh_joint
+  - RL_calf_joint
+  - RL_wheel_joint
+  - RR_hip_joint
+  - RR_thigh_joint
+  - RR_calf_joint
+  - RR_wheel_joint
+
+wheel_ids: [3, 7, 11, 15]
+
+default_dof_pos: [0.00, 0.8, -1.5, 0.00]  
+crouch_dof_pos:  [0.00, 0.4, -0.8, 0.00]   
+
+p_gains: [40.0, 40.0, 40.0, 0.0]
+d_gains: [1.0, 1.0, 1.0, 0.5]
+
+
+actions_scale: 0.25
+vel_scale: 10.0
+yaw_kp: 2.5
+
+scale_factors:
+  scale_lin_vel: 2.0
+  scale_ang_vel: 0.25
+  scale_dof_pos: 1.0
+  scale_dof_vel: 0.05
+
+sim_steps_per_loop: 4
+timestep: 0.002
